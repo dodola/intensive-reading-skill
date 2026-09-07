@@ -1,0 +1,160 @@
+# 精读讲义的结构与分析方法
+
+体例源自《外刊双语深度精读》讲义（The Atlantic / The New Yorker 两期）的逆向拆解，已适配教材课文。
+
+## 三层骨架
+
+```
+1. 封面区
+     ★ 刊物名/教材名 · 双语深度精读 ★
+     英文标题 / 中文标题 / 讲解人 · 日期（教材版：单元主题 · 阅读策略 · 语法项 · 写作产出）
+
+2. 【 导读 · Lead-in 】
+     抛现象 → 摆张力 → 升维追问
+     收束句："这篇文章真正想讨论的不是 X，而是 Y"
+
+3. ◆ 第 N 段（循环体，全文主体）
+
+4. 【 写在最后 · Epilogue & Reflection 】
+     「 AFTER READING｜读完之后
+     点破主题 → 回扣金句 → 个人化追问
+     --- 全文精读完结 · 勤加复盘 ---
+```
+
+**导读三步**
+
+1. **抛现象** —— 一个具体事件或一组反常数据（哈佛关掉写作中心；应届生失业率高于整体劳动人口；霍乱被称作 King Cholera）
+2. **摆张力** —— 把对立的两面都摊开（财政压力 vs 教育价值；教育投入 vs 回报缺席）
+3. **升维** —— 明确「文章不是在吵 A vs B，而是在问一个更深的问题」
+
+导读的功能是**给读者装一个阅读透镜**，让后面每一段都有归属。全文最该用心写的部分。
+
+## 段落循环体：四件套
+
+每个 `◆` 块内部固定四层，从"读懂"到"会用"层层递进：
+
+```
+◆ 第 N 段｜<这一块干了什么>
+ │
+ ├─【1】双语对照句块           ← 读懂
+ │    **En:** 原文一句
+ │    > **译:** 中文一句
+ │
+ ├─【2】✦ 这一段最值得学习的表达  ← 划重点
+ │    表达 —— 极简释义（5~8 条，不展开）
+ │
+ ├─ 📖 词汇注释                 ← 学透
+ │    ▶ 词条（编号）
+ │
+ └─ 📖 精读                     ← 想深
+```
+
+三个设计要点：
+
+- **按句而非按段给译文** —— 英中紧贴，纸质阅读时视线不用来回跳
+- **先清单后详解** —— 表达清单是缩略目录，读者可只扫清单跳过详解，形成两档阅读速度
+- **词汇在前、逻辑在后** —— 先扫清语言障碍再谈论证，顺序不能反
+
+## 词条七件套
+
+按需选用，不是每条全上。
+
+| # | 模块 | 作用 | 样例 |
+|---|---|---|---|
+| 1 | 音标 + 词性 | 基础信息 | `fiefdom /ˈfiːfdəm/ n.` |
+| 2 | 释义分层 ①②③ | 本义 → 引申义 → **（本文）**义 | fiefdom：① 封地 ② 某人掌管的"小王国" ③（本文）调侃某行政机构 |
+| 3 | **原文回填** | 原句 + 译文，锁定语境 | `She was not presiding over just any administrative fiefdom.` |
+| 4 | 搭配家族 | 3~6 条同族搭配，一次记一串 | `lay out a plan / a strategy / the reasons for… / the evidence` |
+| 5 | 词源或本义溯源 | 建立画面感 | `stoke a fire 给火添燃料` → `stoke fears/anger/tensions` |
+| 6 | 近义辨析 / 反差对照 | 讲清"为什么用这个不用那个" | `accelerate`（速度加快）vs `escalate`（严重程度升级）；`is widespread` vs `has become widespread`（多一层变化过程） |
+| 7 | 迁移分级 | 见下 | |
+
+第 3 项是硬性的：**没有原文回填的词条等于抄词典**。
+
+### 词条筛选标准
+
+选进注释的词，至少满足一条：
+
+- **一词多义、易误解** —— `policing`（不是"警务"）、`account for`（解释 vs 占比）、`attend to`（不是"出席"）、`waste`（污物 vs 浪费）
+- **隐喻或词源有画面** —— `torrent`、`fiefdom`、`stoke`、`crunch`、`in its tracks`
+- **搭配成家族、可批量迁移** —— `lay out`、`leverage`、`escalate`、`stark`、`a link between`
+- **作者的态度信号词** —— `fallible and whiny employees`（模仿鼓吹者口吻的讽刺）、`oddly phrased as a command`
+- **同根词可串联** —— `precarious (adj.) ↔ precarity (n.)`，跨段回指
+
+## 迁移分级
+
+体例里最有辨识度的增值点：**区分"读懂价值"和"使用价值"**，明确告诉学生哪些词只能欣赏、不能搬进作文。
+
+| 标记 | 含义 | 例 |
+|---|---|---|
+| ✓✓ | 强烈建议迁移：正式、中性、无修辞色彩 | `become widespread among…`、`the past decade has seen…` |
+| ✓ | 可用，但注意分寸 | `notoriously`（自带评价色彩，勿滥用）、`once and for all`（语气很重） |
+| ⚠️ | 读懂即可，不建议主动使用 | `a torrent of criticism`、`down the road`、`be stopped in its tracks` |
+
+**⚠️ 类必须给替换方案，这是闭环的关键：**
+
+> `a torrent of criticism`（新闻/文学修辞色彩过重）
+> → 推荐：`widespread criticism` / `attract widespread criticism` / `be widely criticized for…`
+> → 例句：*The policy has attracted widespread criticism for placing an excessive burden on low-income families.*
+
+同类：`police the use of AI` → `regulate / monitor / oversight`；`be let go` → `lay off / job losses`；`be stopped in its tracks` → `bring … under control / put an end to / curb the spread of`。
+
+## 精读五套路
+
+**标题即结论。** 先写标题再写正文，两个句式模板：
+
+- **「真正 X 的，不是 A，而是 B」** —— 揭示深层论点
+- **「为什么 X，却 Y？」** —— 点出反差，制造问题意识
+
+正文用这五种分析：
+
+**① 论证链条命名法** —— 把段落结构抽象成术语链并画箭头图
+
+> 学校积极推广 AI → 承认 AI 有合理用途（concession）→ But：监管不足（counterpoint）→ 数据落地（evidence）
+> 标注：`Claim → Concession → Counterargument → Evidence`
+
+**② 反差定位法** —— 找出段内两组对撞的信息
+
+> 情绪：剧烈恶化（a stark change in confidence）
+> 数据：轻微恶化（only mildly worse）
+> → 落差本身就是这一段的问题意识来源
+
+**③ 因果链可视化** —— 用 `→` 串出机制
+
+> `economic insecurity → disappointment → disaffection → hopelessness`
+> `Harvard ↓ 顶尖大学 ↓ 公立大学 ↓ 社区学院`（机构自上而下的模仿链）
+
+**④ 立场精确化** —— 区分"粗糙版观点"和作者的实际观点
+
+> 不是：`AI is bad.`
+> 而是：`AI can be useful, but widespread use without sufficient oversight may create problems.`
+
+**⑤ 竞争性解释提醒** —— 指出作者自己的克制，教读者别过度归因
+
+> 「作者没有因为文章讨论 AI，就把所有证据都塞进"AI 威胁写作"这一条因果链里」——同时给出财政缺口这个竞争性解释（$365 million budget shortfall）。
+
+## 收尾三步法
+
+1. 一句话点破真主题 —— 「表面上写的是 X，真正讨论的却是 Y」
+2. 回扣文中金句 + 双语呈现
+3. 落到个人化的追问 —— 用"我们"，把话题交还给读者
+
+与精读标题共用同一套修辞骨架（`真正危险的，不是 A，而是 B`），全文调性统一。
+
+## 教材课文的两个附加模块
+
+**🧩 语法聚焦** —— 对接该单元的语法项，**用课文原句当例证**，比语法书的造句更有说服力。同时给出易混辨析（表语从句 vs 宾语从句 vs 同位语从句）与经典陷阱（`the way how` ✗）。
+
+**课后练习双向咬合** —— 某词在 Learning About Language / Assessing Your Progress 哪道题考过，就在词条里标注出来。构词法练习（前后缀）直接挂到对应词条（`-ology` → `epidemiology`、`trans-` → `transform`）。
+
+## 收尾附录（教材版）
+
+两个正文之外的模块，实测很有用：
+
+- **写作素材库** —— 把评级 ✓✓/✓✓✓ 的表达按功能重新分组（因果连接 / 数据描述 / 人物品质 / 语法句型 / 句式升级对照表）
+- **学完自测** —— 对接课本活动编号的追问，加语法自查（"找出全文 3 处表语从句、2 处 have sth done"）与写作产出题
+
+## 视觉设计规格
+
+见 [`style-spec.md`](style-spec.md)——从原件 OOXML 逐项提取的完整规格，色板、字体、
+每个角色的间距缩进底色都在那里，是排版的唯一权威。`scripts/tokens.py` 按它取值。
