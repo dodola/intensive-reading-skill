@@ -9,8 +9,11 @@
 
 ```bash
 git clone git@github.com:dodola/intensive-reading-skill.git
-cp -r intensive-reading-skill/intensive-reading ~/.claude/skills/
+ln -s "$PWD/intensive-reading-skill/intensive-reading" ~/.claude/skills/
 ```
+
+符号链接让仓库成为唯一副本：改完直接 `git commit`，不必再往 `~/.claude/skills/` 同步一次。
+想要独立副本就把 `ln -s` 换成 `cp -r`。
 
 skill 是 model-invoked 的：说「把这篇文章做成精读讲义」「Unit 2 也做一份」即可触发，不必打命令。
 
