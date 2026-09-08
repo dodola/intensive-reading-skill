@@ -35,7 +35,9 @@ python3 "$HERE/make_ref.py"       "$WORK/ref.docx" "$HEADER" "$FOOTER"
 python3 "$HERE/print_variant.py"  "$SRC" "$WORK/print.md"
 pandoc  "$WORK/print.md" --reference-doc="$WORK/ref.docx" -o "$DIR/$BASE.docx"
 python3 "$HERE/postprocess.py"    "$DIR/$BASE.docx"
-soffice --headless --convert-to pdf --outdir "$DIR" "$DIR/$BASE.docx" >/dev/null 2>&1
+# 独立 LibreOffice 用户配置：多个 build.sh 并发跑时，共享配置会抢锁互相失败
+soffice --headless "-env:UserInstallation=file://$WORK/loprofile" \
+        --convert-to pdf --outdir "$DIR" "$DIR/$BASE.docx" >/dev/null 2>&1
 
 echo "✓ $BASE.docx"
 echo "✓ $BASE.pdf   ($(pdfinfo "$DIR/$BASE.pdf" | awk '/^Pages/{print $2}') 页, A4)"
