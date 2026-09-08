@@ -4,6 +4,11 @@
 
 体例与排版从两份《外刊精读》讲义原件逆向提取——分析方法见 `references/method.md`，
 样式规格见 `references/style-spec.md`（从原件 OOXML 逐项提取，是排版的唯一权威）。
+教材课文的考点靶子在 `references/gaokao-targets.md`：分值地图、语法填空十类考点、
+读后续写四类素材、词条的高考三维、精读的题型对接表。
+
+三份 reference 的分工：`method.md` 讲**怎么读**，`gaokao-targets.md` 讲**读出来的
+东西对准哪儿**，`style-spec.md` 讲**怎么排**。
 
 ## 安装
 

@@ -116,7 +116,12 @@ Markdown 有原件没有的构件，按规格的精神就近处理，不新造�
    pandoc 开 `lists_without_preceding_blankline` 扩展纠正；讲义源文照常紧接着写。
 5. **装饰符号 → 白名单内的几何符号。** LibreOffice 对 emoji 与 `▶ ⚠ ✔` 无字形，
    导出后**静默消失**。`print_variant.py` 的 `GLYPH_MAP` 负责替换，`SAFE_DECOR`
-   是已验证能渲染的白名单（箭头 / 带圈数字 / 制表符 / 几何形 / 星形勾叉 / 数学符号），
+   是白名单（箭头 / 带圈数字 / 制表符 / 几何形 / 星形勾叉 / 数学符号），
    落在 U+2190–U+2BFF 或 U+1F000 以上而不在白名单里的字符一律构建失败。
+
+   **往白名单加字符的唯一判据是实测渲染**：做一页探针文档，走完整管线导出 PDF，
+   放大看像素。查字体 cmap 会两个方向都误判——LibreOffice 的回退链比本文件声明的
+   四个字族宽得多，`✦ ✗ ⇢ ✧` 在 Georgia / Noto Serif CJK / Carlito / YaHei 里
+   全都查不到，实测却都正常显示；反过来，装了某个字体也不保证 LibreOffice 会用它。
 
 方框内一律齐 `IND_BOX`，不做嵌套缩进——`pBdr left` 画在段落缩进处，缩进不一致会把左竖条推出台阶。
