@@ -166,6 +166,8 @@ footer: 选必二 Unit 1  ·  John Snow
 
 **▶ 5. attend to sb**
 
+> **【熟词生义】** 常见义「出席、参加」→ 本文义「照料、为……诊治」。词义猜测题的典型问法：*What does the underlined word mean in Paragraph N?*
+>
 > ⚠️ **这是本段最容易翻错的表达。**
 >
 > 中文释义：
@@ -208,6 +210,34 @@ footer: 选必二 Unit 1  ·  John Snow
 >
 > **🎓 高考迁移：✓** 可以用，位置固定在句末。但不要滥用——它语气很重，只适合真正"根本性解决"的语境。
 
+### 🖊 续写素材｜人物出场：从"受挫"到"不甘"
+
+**心理梯度**（弱 → 强）
+
+- **became frustrated** —— 感到挫败，这是起点：无能为力
+- **no one knew how to prevent or treat** —— 给挫败一个具体来源
+- **never lost his desire to** —— 不甘：挫败没有把他压下去
+- **once and for all** —— 决心的极限值，要彻底了结
+
+续写里人物立志的段落最容易写成 `He decided to…`。这条链给的是**四级递进**：
+先给挫败一个来源，再让挫败没能压住愿望。**有来源的决心才可信**。
+
+**动作链**（人物成长）
+
+```
+as a young doctor → became frustrated → rose to become a famous doctor
+→ attended to Queen Victoria → never lost his desire
+```
+
+注意这条链是**先扬后转**：地位一路升高，最后一句却把他拉回原点的执念。
+续写写"功成名就却仍不满足"的人物，可以直接套这个形状。
+
+**环境与五感**
+
+- **one of the most feared diseases** —— 用群体情绪写病，不写病理
+- **an outbreak of cholera hit Europe** —— `hit` 把疫病写成撞击，一个动词造出画面
+- **severe diarrhoea, dehydration, and even death** —— 三项递进，末项最重
+
 ### 📖 精读｜先立人，再立事：为什么开篇要写"他给女王接生"？
 
 这一段看起来只是背景介绍，其实作者做了一个非常精心的**人物铺垫**。
@@ -232,6 +262,8 @@ footer: 选必二 Unit 1  ·  John Snow
 > 驱动他的不是处境，而是初心。
 
 这正是本单元写作任务 "**what makes a great scientist**" 要的答案之一——**persistence（坚持）不是走投无路时的挣扎，而是有退路时的选择。**
+
+⇢ **题型对接｜推理判断** 「给女王接生」这个细节不是炫耀，它的功能是把 Snow 的社会地位垫高，好让后面"他本可以安享名声，却仍要去查霍乱"成立。推理判断题问 *Why does the author mention…?* 时，考的正是**细节的功能**，不是细节本身——选项里凡是把细节当事实复述的（"说明他医术高明"），都是干扰项。
 
 👉 **写作可直接迁移的结构**：
 `成就句（他已经拥有了什么）+ However + 初心句（他仍然想做什么）` = 一个高分的人物段落骨架。
@@ -307,6 +339,8 @@ footer: 选必二 Unit 1  ·  John Snow
 
 **▶ 2. subscribe to**
 
+> **【熟词生义】** 常见义「订阅」→ 本文义「赞同、支持（某种理论）」。词义猜测题的典型问法：*What does the underlined word mean in Paragraph N?*
+>
 > ⚠️ **本段最容易翻错的表达。**
 >
 > 中文释义：
@@ -430,6 +464,14 @@ The other    was   that cholera was caused by an infection from germs…
 自测：`Snow suspected that the water pump was to blame.` 是哪一种？
 👉 suspect 是实义动词 → **宾语从句**。
 
+### 🖊 续写素材｜本块无续写素材
+
+这一块是**说明性论述**（两种理论对立 → 立场选择 → 提出证据缺口），
+没有连续动作，也没有情绪起伏。按规格不硬拆。
+
+`subscribed to` 与 `needed proof` 表达的是立场与求证欲，属于议论文的态度词，
+不是续写要的心理描写——**强行拆出来，学生搬进续写会写成议论，反而扣分**。
+
 ### 📖 精读｜科学的起点，不是"我知道"，而是"我需要证据"
 
 这一段只有八句话，却完整呈现了科学思维中最关键的一次自我约束。
@@ -474,6 +516,8 @@ He was determined to find out why. ← 提出问题
 
 对应课本 Activity 1 的科学研究步骤，这一段刚好走完了前三步：
 **find a problem → ask a question → think of a method**。
+
+⇢ **题型对接｜推理判断** 作者的实际立场是「Snow 选对了理论，但选对不等于科学」，不是「Snow 一开始就是对的」。`It was correct, but he still needed proof.` 这个 `but` 画出了边界——选项只要停在 *Snow was right from the beginning*，就是把转折的前半句当成了整句，典型的**截取式干扰项**。
 
 👉 **本段与本单元阅读策略 "Ask questions" 的对接**：整段的落点是一个 `why`。**一篇科学叙事真正的开始，不是答案，而是一个被精确提出的问题。**
 
@@ -620,6 +664,8 @@ He was determined to find out why. ← 提出问题
 
 **▶ 5. suspect** /səˈspekt/ v. 与 **doubt** 的辨析
 
+> **【熟词生义】** 常见义「怀疑某人有罪」→ 本文义「推测……有问题」，后接 that 从句。词义猜测题的典型问法：*What does the underlined word mean in Paragraph N?*
+>
 > 中文释义：怀疑（**认为某件坏事是真的**）
 >
 > **⚠️ suspect 和 doubt 意思几乎相反，这是高考经典易混点：**
@@ -659,6 +705,36 @@ He was determined to find out why. ← 提出问题
 **读后续写高频用法**：
 `When he arrived, the team **had already left**.` 当他赶到时，队伍已经离开了。
 
+### 🖊 续写素材｜调查的开端：全文动作链最完整的一块
+
+**动作链**（可直接套用的骨架）
+
+```
+an outbreak hit London → began to investigate → discovered 500 deaths in ten days
+→ was determined to find out why → began by marking on a map
+→ noticed the households with no deaths → traced them to the pub
+```
+
+这是读后续写里「主人公着手解决问题」的标准形状：
+**突发事件 → 介入 → 发现异常 → 下决心 → 第一个具体动作 → 注意到例外**。
+
+关键在倒数第二步：`began by marking on a map` 是一个**具体到能拍出来**的动作，
+而不是笼统的 `started to do some research`。续写扣分最多的地方就是这里——
+"他开始调查"是概括，"他在地图上一个一个标记死者住过的门牌号"才是描写。
+
+**心理梯度**（弱 → 强）
+
+- **was determined to find out why** —— 决心：把疑问变成任务
+
+本块只有这一处心理动词，因为它是**行动块**，情绪让位给动作。这本身是个可学的分寸：
+动作密的段落不要塞心理描写。
+
+**环境与五感**
+
+- **the water pump in Broad Street** —— 一个具体地点反复出现，成为全文的视觉锚点
+- **house numbers 16, 37, 38, and 40** —— 门牌号，精确到让人相信这是真的
+- **they had been given free beer** —— 全文最有画面的反常细节：用啤酒解释了活人
+
 ### 📖 精读｜真正的关键证据，是那些"没有发生的事"
 
 这一段是全文最精彩的推理。而它精彩的地方，恰恰在于一个很多人会读漏的转折。
@@ -697,6 +773,8 @@ Snow suspected that the water pump was to blame.
 📌 这也解释了课本 Activity 6 的那个问题："**What common medical tools, e.g., a microscope, didn't he use? Why?**"
 
 答案是：**斯诺没有显微镜，他根本看不见霍乱弧菌。**他靠的不是观察病原体，而是观察**人**——谁喝了，谁没喝；谁死了，谁没死。
+
+⇢ **题型对接｜推理判断** 「没有死人的那几户」是本段的证据核心，但课文始终没有直说"所以水泵有问题"，中间那一步是读者推的。推理判断题的正确选项通常就落在这种**作者铺了证据却没有说破的地方**；反过来，作者已经明说的内容如果出现在选项里，那多半是细节题的答案，不是推理题的。
 
 👉 **对本单元写作的启发**：科学精神不只是"努力"和"聪明"，还包括一种非常具体的能力——**注意到那些不符合预期的例外，并且认真对待它们。**
 
@@ -739,6 +817,8 @@ Snow suspected that the water pump was to blame.
 
 **▶ 1. handle**（一词两义，课本重点考查）
 
+> **【熟词生义】** 常见义（v.）「处理、应付」→ 本文义（n.）「把手」。词义猜测题的典型问法：*What does the underlined word mean in Paragraph N?*
+>
 > **原文（名词）：**
 > he had the **handle** of the pump removed
 > 他让人拆掉了水泵的**把手**
@@ -848,6 +928,35 @@ Snow suspected that the water pump was to blame.
 > - **effectively prevent …** 有效阻止……
 > - **curb the spread of …** 遏制……的传播
 
+### 🖊 续写素材｜高潮与收束：从怀疑到行动
+
+**动作链**（全文的动作高潮）
+
+```
+suspected the pump was to blame → found the woman who had moved away
+→ learned she had the water delivered every day → was able to announce
+→ had the handle of the pump removed → the disease was stopped in its tracks
+```
+
+续写的高潮段最怕「想通了」之后直接跳到「问题解决了」。这条链示范了中间那一步：
+**一个物理动作**——`had the handle of the pump removed`。
+拔掉一个把手，比任何"他终于证明了自己的理论"都有力。
+
+**心理梯度**（弱 → 强）
+
+- **suspected … was to blame** —— 怀疑，且已经指向具体对象
+- **as a result of this evidence** —— 怀疑被证据顶成了结论
+- **was able to announce** —— 从私下确信到公开宣告
+
+`was able to` 而不是 `could`——强调的是"终于具备了条件"，
+前面所有的证据积累都压在这三个词上。续写里写"终于能够……"，用 `was able to`。
+
+**环境与五感**
+
+- **the handle of the pump** —— 一个可以用手握住的东西，全文最实的意象
+- **she had it delivered to her house every day** —— 用一个日常习惯写死因，不写病
+- **stopped in its tracks** —— 疾病被写成一个正在奔跑的东西，戛然而止
+
 ### 📖 精读｜从"相关"到"因果"：那个搬走的女人为什么如此关键？
 
 上一段已经推理得很漂亮了——为什么作者还要再加一个远在伦敦另一头的病例？
@@ -889,6 +998,8 @@ Snow suspected that the water pump was to blame.
 
 科学在这里完成了它的最后一步：**从"知道"走向"改变"。**
 
+⇢ **题型对接｜推理判断** 那个搬走的女人排除掉了"Broad Street 一带另有原因"这个竞争性解释——她人已经不在那里，只有水还在。推理判断题里最常见的错误选项就是**把相关当因果**（"住在 Broad Street 的人容易得霍乱"）。判断一个选项是不是干扰项，看它有没有排掉别的解释。
+
 👉 **对接课本 Activity 4（配对 conclusion / evidence / process / solution / theories）**：这一小段同时包含了 **conclusion（D）** 和 **solution（E）**，是全文的收束点。
 
 ---
@@ -924,6 +1035,8 @@ Snow suspected that the water pump was to blame.
 
 **▶ 1. waste** n.（本文义：废物，不是"浪费"）
 
+> **【熟词生义】** 常见义「浪费」→ 本文义「污物、废水」（不可数）。词义猜测题的典型问法：*What does the underlined word mean in Paragraph N?*
+>
 > ⚠️ **本段最容易翻错的词。**
 >
 > **原文：**
@@ -947,6 +1060,8 @@ Snow suspected that the water pump was to blame.
 
 **▶ 2. raw** /rɔː/ adj.（一词多义，课本重点考查）
 
+> **【熟词生义】** 常见义「生的（食物）」→ 本文义「未经处理的」。词义猜测题的典型问法：*What does the underlined word mean in Paragraph N?*
+>
 > **原文：**
 > polluted by **raw** waste
 > 被**未经处理的**污物污染
@@ -1055,6 +1170,31 @@ The truth   was   that the water … had been infected by waste.
 
 **🎓 高考迁移：✓✓** 说明文、实验描述、科普类写作大量使用被动语态，这是**语域特征**，不是"啰嗦"。
 
+### 🖊 续写素材｜结果与余波：环境细节最集中的一块
+
+**环境与五感**（本块的主产出）
+
+- **infected by waste** / **polluted by raw waste** —— 同一件事的两种说法，
+  后者更脏、更具体。`raw` 是这里的关键词
+- **the River Thames** —— 用一条真实的河承载污染，比 `the water` 有分量
+- **pure or boiled water** —— 与污水对照的一组干净意象，冷暖对比
+
+**动作链**（余波型）
+
+```
+was later able to show a link → water companies began to sell clean water
+→ the threat of cholera saw a substantial decrease
+```
+
+这是「余波段」的写法：主人公的动作已经结束，推动情节的换成了**别人因他而改变**。
+续写的结尾段如果只写主人公自己，格局会小；写出他引起的连锁反应，格局才打开。
+
+**心理梯度**
+
+- **tireless efforts** —— 全文唯一一处直接评价 Snow 的努力，且放在结果之前
+
+只有一条，因为本块的重心在环境与结果。**四类不必块块凑齐**。
+
 ### 📖 精读｜一次成功不算科学，可重复才算
 
 如果课文写到上一段就结束，斯诺的故事会非常漂亮，但**它只是一个精彩的破案故事，还不是科学**。
@@ -1098,6 +1238,8 @@ The truth   was   that the water … had been infected by waste.
 > **科学结论的分寸感，就藏在 `more likely` 这三个字里。**
 
 而且这句话里藏着斯诺最了不起的地方：他在还不知道细菌是什么、看不见任何病原体的情况下，**仅凭"谁喝了什么水"和"谁病了"这两组数据的对应关系，就锁定了传播途径。**
+
+⇢ **题型对接｜七选五** 本段与上一段是「个案 → 推广」的关系，靠 `Moreover` 和 `later` 两个信号词衔接。七选五考的就是这类**段间逻辑信号**：看到 `Moreover` 要找一个与上文同向、但范围更大的句子，看到 `However` 则相反。**先判方向再看内容**，能排掉一半选项。
 
 👉 **对本单元写作的启发**：科学的可信度不来自结论多么惊人，而来自**它能不能在更大范围内被重复验证**。这正是 `scientific spirit` 中最容易被写作忽略、却最本质的一层。
 
@@ -1169,6 +1311,8 @@ The truth   was   that the water … had been infected by waste.
 
 **▶ 2. see（表"经历、出现"）—— 本段最隐蔽的高分表达**
 
+> **【熟词生义】** 常见义「看见」→ 本文义「（某时期/某地）经历、出现」。词义猜测题的典型问法：*What does the underlined word mean in Paragraph N?*
+>
 > ⚠️ **这里的 see 不是"看见"。**
 >
 > **原文：**
@@ -1255,6 +1399,8 @@ The truth   was   that the water … had been infected by waste.
 
 **▶ 5. statistics** /stəˈtɪstɪks/ n.（一词两义，注意数）
 
+> **【熟词生义】** 常见义「统计学」（不可数）→ 本文义「统计数据」（复数）。词义猜测题的典型问法：*What does the underlined word mean in Paragraph N?*
+>
 > | 形式 | 含义 | 谓语 |
 > |---|---|---|
 > | statistics（复数） | 统计数据；统计数字 | 复数 |
@@ -1300,6 +1446,8 @@ The truth   was   that the water … had been infected by waste.
 
 **▶ 7. epidemiology** /ˌepɪˌdiːmiˈɒlədʒi/ n.
 
+> **【课标外】** 专业术语，⚠️ 只读不写。但同族的 `epidemic` 与 `pandemic` 是课标内高频，必须掌握。
+>
 > 中文释义：流行病学
 >
 > 构词拆解：**epi-（在……之上）+ dem(o)（人民）+ -ology（……学）→ 研究疾病在人群中传播的学问**
@@ -1335,6 +1483,14 @@ Snow transformed the way (that / in which) scientists study diseases.
 **🎓 可迁移句型：**
 - *The Internet has changed **the way** people communicate.*
 - *This is **the way** we solve the problem.*
+
+### 🖊 续写素材｜本块无续写素材
+
+这一块是**总结与评价**（现状 → 归因 → 定性），全段没有一个具体动作。
+`transformed` 与 `is considered` 都是对既成事实的判断，不是情节。
+
+与第二段同理：不硬拆。全文六块里**四块能供续写素材，两块不能**——
+这个分布本身就是文体判断的结果，不必凑齐六块。
 
 ### 📖 精读｜Snow 留下的不是答案，而是方法
 
@@ -1388,6 +1544,8 @@ Snow transformed the way scientists study diseases.
 
 **这个时态在暗示：斯诺的"击败"不是一次性的历史事件，而是一种至今仍在生效的方法。**
 
+⇢ **题型对接｜主旨要义** 末句 `For this reason, Snow is considered the father of modern epidemiology.` 处在全文主旨句的标准位置——**总结段的最后一句**。主旨题的错误选项常取自文中某个具体证据（水泵、地图、免费啤酒），它们都是支撑而不是主旨；**主旨必须能覆盖全文，而不只是某一段**。
+
 ---
 
 > ### 【 写在最后 · Epilogue & Reflection 】
@@ -1426,9 +1584,46 @@ Snow transformed the way scientists study diseases.
 
 ---
 
+## 📐 附：语法填空考点扫描
+
+> 十类考点见 `gaokao-targets.md`。**逐类给结论，覆盖不到的明写**——
+> 单元语法项是教材的编排逻辑，这十类才是卷子的出题逻辑。
+
+**有提示词**（题干给原形）
+
+| # | 考点 | 覆盖 | 课文例证 | 能出什么空 |
+|---|---|---|---|---|
+| 1 | 词性转换 | **强** | `prevent / treat / infect / pollute / contradict / transform` | prevention·treatment·infection·infectious·polluted·contradictory·transformation |
+| 2 | 时态语态 | **强** | `had had no deaths`｜`had been given free beer`｜`was stopped in its tracks`｜`is considered` | 过去完成时 6 处以上，被动 4 处，叙事时间层次完整 |
+| 3 | 非谓语 | **强** | `began by marking`｜`had the handle removed`｜`determined to find out`｜`boiled water` | 动名词·过去分词作宾补·不定式·分词作定语，四种齐全 |
+| 4 | 形容词副词 | **强** | `one of the most feared diseases`｜`much more likely to … than` | 最高级 + 比较级修饰，`much` 修饰比较级是高频陷阱 |
+| 5 | 主谓一致 | **弱** | `statistics`（本文作"统计数据"，复数） | **有词无空**：课文里 statistics 出现在介词后，不构成主谓一致的空。<br>词条已讲清单复数变义与谓语数，但要出空得另找语料 |
+
+**无提示词**
+
+| # | 考点 | 覆盖 | 课文例证 | 能出什么空 |
+|---|---|---|---|---|
+| 6 | 介词 | **强** | `die from / die of`｜`attend to`｜`subscribe to`｜`be to blame for`｜`a link between … and …`｜`as a result of`｜`thanks to`｜`in his use of` | 全文最富的一类，八组固定搭配。<br>**注意**：这些原本散在词条里，从没被当作语法填空考点归档过 |
+| 7 | 冠词 | **强** | `the father of modern epidemiology`｜`an outbreak of`｜`in the early 19th century`｜`the River Thames` | the + 独一无二身份·an + 元音音素·世纪前的 the·河流前的 the |
+| 8 | 代词 | **强** | `The other was that …`｜`those who drank this water`｜`so that it could not be used` | one…the other·those who 替代·it 指代前文名词 |
+| 9 | 连词 | **强** | `until a British doctor showed`｜`so severe that`｜`and so had not drunk`｜`but he still needed proof` | until·so…that·but。<br>**顺带的陷阱**：`However / Moreover / Consequently` 是副词不是连词，不能连接两个分句 |
+| 10 | 关系词 | **强** | `the way (that / in which) scientists study diseases`｜`the exact places where all those who died had lived`｜`showed how it could be overcome` | the way 后三种写法·where 引导地点定语从句·how 引导宾语从句 |
+
+**扫描结论**：十类中 **9 类强覆盖、1 类弱覆盖（主谓一致，有词无空）**。
+
+这篇课文是难得的语法填空富矿——叙事文自带时间层次（过去完成时），
+调查过程自带固定搭配（介词），结尾的定性句自带冠词与关系词。
+**不是每篇课文都能扫出九类，扫不出来就要明写缺哪类，别拿单元语法项充数。**
+
+---
+
 ## 📚 附：本课高考写作素材库（按功能分类）
 
 > 从课文里拆下来、可以直接搬进作文的表达。**只收录评级为 ✓✓ / ✓✓✓ 的高频项。**
+>
+> **分两栏，因为两类作文要的东西不一样，别混用：**
+> **一 ~ 五** 服务应用文与议论文（15 分）——逻辑连接、数据描述、品质刻画、句型升级；
+> **六 ~ 八** 服务读后续写（25 分）——动作、心理、环境，直接汇总各块 `🖊 续写素材` 的成果。
 
 ### 一、因果与逻辑连接（议论文骨架）
 
@@ -1480,6 +1675,45 @@ Snow transformed the way scientists study diseases.
 | He was very determined, so he succeeded. | **It was his determination that** enabled him to succeed. |
 | Because he worked hard, he made it. | **Through his tireless efforts,** he made it. |
 
+### 六、动作链（读后续写专用）
+
+| 情节阶段 | 课文原句 | 可套用的形状 |
+|---|---|---|
+| 突发事件 | **an outbreak of cholera hit London** | `When 灾难 hit 地点, …` —— 用 hit 写撞击感 |
+| 介入 | **began to investigate** | 概括性介入，后面必须紧跟具体动作 |
+| 第一个具体动作 | **began by marking on a map the exact places …** | `began by doing …` —— **具体到能拍出来** |
+| 发现例外 | **However, some households had had no deaths.** | 用 However 领出反常，是转折的支点 |
+| 下决心 | **was determined to find out why** | 把疑问变成任务 |
+| 关键行动 | **had the handle of the pump removed** | `have sth done` —— 一个物理动作胜过一句心理 |
+| 结果 | **the disease was stopped in its tracks** | 被动 + 拟人，结果写得干脆 |
+| 余波 | **water companies began to sell clean water** | 别人因他而改变，格局才打开 |
+
+### 七、心理与情感梯度（读后续写专用）
+
+**按强度排列，不按出现顺序**——续写得分靠情绪层层推进。
+
+| 强度 | 表达 | 用法 |
+|---|---|---|
+| ① 挫败 | **became frustrated** | 起点，必须紧跟一个具体来源 |
+| ② 起疑 | **suspected … was to blame** | 怀疑要指向具体对象，不能悬空 |
+| ③ 不甘 | **never lost his desire to …** | 双重否定写执念，比 still wanted 有力 |
+| ④ 决心 | **was determined to find out why** | 疑问变任务 |
+| ⑤ 终于能够 | **was able to announce** | 不用 could——强调"终于具备了条件" |
+| ⑥ 彻底 | **once and for all** | 决心的极限值，语气很重，慎用 |
+
+### 八、环境与五感（读后续写专用）
+
+| 类 | 课文原句 | 为什么好用 |
+|---|---|---|
+| 群体情绪写环境 | **one of the most feared diseases** | 写病不写病理，写人怎么看它 |
+| 一个动词造画面 | **an outbreak … hit Europe** | hit 自带撞击 |
+| 可触摸的实物 | **the handle of the pump** | 全文最实的意象，能用手握住 |
+| 脏的具体化 | **polluted by raw waste** | raw 比 dirty 精确得多 |
+| 冷暖对照 | **pure or boiled water** vs. **polluted water** | 一组干净意象压住一组脏的 |
+| 日常习惯写因果 | **she had it delivered to her house every day** | 用生活细节写死因，不写病 |
+| 拟人化的动态 | **stopped in its tracks** | 疾病被写成正在奔跑的东西 |
+| 精确到可信 | **house numbers 16, 37, 38, and 40** | 门牌号让虚构落地 |
+
 ---
 
 ## ✅ 学完自测（对接课本活动）
@@ -1489,7 +1723,13 @@ Snow transformed the way scientists study diseases.
 3. **Activity 6 追问**：斯诺**没有**使用显微镜——为什么他仍然能得出正确结论？这说明科学研究中"工具"和"方法"哪个更根本？
 4. **词汇自查**：不看注释，说出下列词在**本文中**的意思——`attend to` / `subscribe to` / `handle` / `raw` / `waste` / `see` / `statistics`。
 5. **语法自查**：找出课文中全部 **3 处表语从句**、**2 处 have sth done**、**5 处以上过去完成时**。
-6. **写作产出**：用本课素材库里的至少 **6 个表达**，写一段 100 词左右的短文回答——*What makes a great scientist?*
+6. **写作产出（议论文）**：用素材库 **一~五** 里的至少 **6 个表达**，写一段 100 词左右的短文回答——*What makes a great scientist?*
+7. **读后续写微练习**：用素材库 **六~八** 里的 **动作链 4 步 + 心理梯度 2 级 + 环境细节 2 处**，写 80 词——
+   *斯诺拔掉把手的那个下午*。不许出现 `He was very happy` 这类概括性情绪句。
+8. **语法填空自查**（对接考点扫描表）：不看注释，在课文里各找出——
+   **3 处过去完成时**、**2 处 have sth done**、**5 个固定介词搭配**、
+   **1 处 the way + 从句**、**1 处 those who 替代**。
+   十类考点里哪一类你在课文里找不到例证？（答案见扫描表）
 
 ---
 

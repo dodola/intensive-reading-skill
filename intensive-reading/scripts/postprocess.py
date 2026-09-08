@@ -170,6 +170,8 @@ def callout(block, kind):
              tint=tint, bar=True, keep=True)
     recolor(block[0], HEAD if kind == "a" else NOTE, bold=True)
     for para in block[1:]:
+        if para.tag != q("p"):
+            continue          # 表格保留 Table 样式的描边与表头底色，不套方框几何
         # 全部齐方框内缩：竖条画在段落缩进处，缩进不一致会把左竖条推出台阶
         geometry(para, f"box_body_{kind}", ind_left=IND_BOX,
                  ind_right=IND_BOX, tint=tint, bar=True)
@@ -204,6 +206,10 @@ def apply_roles(body):
             j = i + 1
             while j < len(kids):
                 nxt = kids[j]
+                # 表格不打断方框：精读里常有对照表，遇到就跳过继续往后收，
+                # 否则表格之后的正文（含 ⇢ 题型对接）会掉到方框外面
+                if nxt.tag == q("tbl"):
+                    j += 1; continue
                 if nxt.tag != q("p") or para_style(nxt) in HEADINGS or is_rule(nxt):
                     break
                 j += 1
