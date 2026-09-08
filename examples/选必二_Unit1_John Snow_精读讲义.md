@@ -12,7 +12,9 @@ footer: 选必二 Unit 1  ·  John Snow
 **约翰·斯诺击败"霍乱王"**
 
 单元主题：科学与科学家 · 提问的头脑 · 证据与方法
+
 阅读策略：Ask questions｜语法项：Predicative clauses（表语从句）
+
 写作产出：An opinion essay about the scientific spirit
 
 ---
