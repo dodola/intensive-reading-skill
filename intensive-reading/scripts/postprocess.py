@@ -10,6 +10,8 @@ make_ref.py 定基线（字体 / 字号 / 色板 / 页面），这里定逐段�
 3) 表格列宽 —— pandoc 对管道表格输出空 <w:tblGrid/> 且 tblW=0，
    LibreOffice 会把整行宽度分给第一列。按内容宽度重新分配。
 4) 页面设置 —— pandoc 丢弃参考模板的 sectPr，在此补回并接上页眉页脚。
+5) 产物校验 —— 角色认不出来是静默的（退回默认排版，产物照样生成），
+   所以最后把「必然非零」的计数核一遍，缺了就非零退出。
 """
 import shutil, sys, re, zipfile
 from pathlib import Path
@@ -339,7 +341,36 @@ def main(path):
           f"精读方框 {roles['callout_b']} / En 行 {roles['en']} / 译文 {roles['zh']} / "
           f"词条头 {roles['entry']}")
     print(f"  基础修正：{bolds} 处加粗 / {tables} 个表格列宽 / {roles['rule']} 条横线改间隔 / "
-          f"{lists} 处列表缩进 / 页眉页脚 {hf}/2")
+          f"{lists} 处列表缩进 / 页眉页脚 {hf}/2", flush=True)
+    verify(roles, hf)
+
+
+# ── 5. 产物校验 ──────────────────────────────────────────────
+# 角色识别全靠文本特征，认不出来时不会报错，只是那一块退回默认排版——产物照样
+# 生成、页数照样对，光看输出发现不了。所以这里把「必然非零」的计数硬性核一遍。
+REQUIRED = [
+    ("cover",     "封面区（首行须是 `# ` 一级标题）"),
+    ("callout_a", "【导读】方框（三级标题须含「【」，且其后紧跟正文段）"),
+    ("callout_b", "📖 精读 方框"),
+    ("en",        "En: 英文原句行"),
+    ("zh",        "译: 中文翻译行（须写在引用块 `> ` 里）"),
+    ("entry",     "▶ 词条头"),
+]
+
+
+def verify(roles, hf):
+    missing = [(k, why) for k, why in REQUIRED if not roles[k]]
+    if hf != 2:
+        missing.append(("header/footer", f"页眉页脚只接上 {hf}/2，sectPr 的 rId 没找到"))
+    if not missing:
+        return
+    print("产物校验失败：以下角色一个都没识别到，对应内容会退回默认排版。",
+          file=sys.stderr)
+    for k, why in missing:
+        print(f"  {k:12} 缺失 —— {why}", file=sys.stderr)
+    print("对照 references/template.md 检查讲义结构，或改 apply_roles 的识别条件。",
+          file=sys.stderr)
+    sys.exit(1)
 
 
 if __name__ == "__main__":
