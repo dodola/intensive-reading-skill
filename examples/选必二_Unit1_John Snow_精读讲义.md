@@ -80,15 +80,24 @@ footer: 选必二 Unit 1  ·  John Snow
 
 ### 📖 词汇注释
 
-**▶ 1. feared**（the most feared diseases）
+**▶ 1. feared** /fɪəd/ adj.（过去分词作形容词）
 
-> 中文释义：令人恐惧的
+> 中文释义：令人恐惧的；被担心、惧怕的
+>
+> **原文：**
+> …one of the most feared diseases in the world…
+> ……世界上最令人恐惧的疾病之一……
 >
 > 这里 **feared 是过去分词作定语**，意思是"被害怕的"→"令人恐惧的"。
 >
-> 同类结构非常常见，都值得成串记：
+> 常见搭配：
 >
 > - the most feared disease → 最令人恐惧的疾病
+> - be greatly/widely feared → 广受惧怕
+> - a feared consequence → 令人担忧的后果
+>
+> 同类结构（`the most + 过去分词 + n.`）也很常见，值得成串记：
+>
 > - the most respected scientist → 最受尊敬的科学家
 > - the most talked-about issue → 最被热议的话题
 > - a widely accepted theory → 一个被广泛接受的理论
@@ -263,7 +272,7 @@ as a young doctor → became frustrated → rose to become a famous doctor
 
 这正是本单元写作任务 "**what makes a great scientist**" 要的答案之一——**persistence（坚持）不是走投无路时的挣扎，而是有退路时的选择。**
 
-⇢ **题型对接｜推理判断** 「给女王接生」这个细节不是炫耀，它的功能是把 Snow 的社会地位垫高，好让后面"他本可以安享名声，却仍要去查霍乱"成立。推理判断题问 *Why does the author mention…?* 时，考的正是**细节的功能**，不是细节本身——选项里凡是把细节当事实复述的（"说明他医术高明"），都是干扰项。
+⇢ **题型对接｜主旨要义** 这一段做的是**反差定位**——年轻时的无力 vs. 成名后的地位，反差处就是作者的态度所在：persistence 不是走投无路时的挣扎，而是有退路时的选择。主旨要义题问段落/全文的核心观点时，答案往往就藏在这类反差里，而不是任何一侧单独的事实（"说明他医术高明"这种把细节当事实复述的选项，是典型干扰项）。
 
 👉 **写作可直接迁移的结构**：
 `成就句（他已经拥有了什么）+ However + 初心句（他仍然想做什么）` = 一个高分的人物段落骨架。
@@ -664,8 +673,6 @@ He was determined to find out why. ← 提出问题
 
 **▶ 5. suspect** /səˈspekt/ v. 与 **doubt** 的辨析
 
-> **【熟词生义】** 常见义「怀疑某人有罪」→ 本文义「推测……有问题」，后接 that 从句。词义猜测题的典型问法：*What does the underlined word mean in Paragraph N?*
->
 > 中文释义：怀疑（**认为某件坏事是真的**）
 >
 > **⚠️ suspect 和 doubt 意思几乎相反，这是高考经典易混点：**
@@ -1695,11 +1702,13 @@ Snow transformed the way scientists study diseases.
 | 强度 | 表达 | 用法 |
 |---|---|---|
 | ① 挫败 | **became frustrated** | 起点，必须紧跟一个具体来源 |
-| ② 起疑 | **suspected … was to blame** | 怀疑要指向具体对象，不能悬空 |
-| ③ 不甘 | **never lost his desire to …** | 双重否定写执念，比 still wanted 有力 |
-| ④ 决心 | **was determined to find out why** | 疑问变任务 |
+| ② 不甘 | **never lost his desire to …** | 双重否定写执念，比 still wanted 有力 |
+| ③ 决心 | **was determined to find out why** | 疑问变任务 |
+| ④ 起疑 | **suspected … was to blame** | 怀疑要指向具体对象，不能悬空 |
 | ⑤ 终于能够 | **was able to announce** | 不用 could——强调"终于具备了条件" |
 | ⑥ 彻底 | **once and for all** | 决心的极限值，语气很重，慎用 |
+
+与正文各块内部的弱→强顺序一致：挫败（第一段）→不甘（第一段）→决心（第三段上）→起疑（第三段下）→终于能够（第三段下）→彻底。
 
 ### 八、环境与五感（读后续写专用）
 
