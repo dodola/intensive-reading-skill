@@ -703,7 +703,7 @@ He was determined to find out why. ← 提出问题
 在叙事文里，只要你在讲"当时之前已经发生的事"，就要用 `had + done`。
 
 **读后续写高频用法**：
-`When he arrived, the team **had already left**.` 当他赶到时，队伍已经离开了。
+*When he arrived, the team **had already left**.* 当他赶到时，队伍已经离开了。
 
 ### 🖊 续写素材｜调查的开端：全文动作链最完整的一块
 
@@ -1338,7 +1338,7 @@ was later able to show a link → water companies began to sell clean water
 > 这个句型能让作文瞬间脱离"中式英语"的平铺直叙：
 >
 > - 普通：`In the past ten years, online learning has developed rapidly.`
-> - 高级：`**The past ten years have seen** the rapid development of online learning.`
+> - 高级：***The past ten years have seen** the rapid development of online learning.*
 >
 > **注意：此时的宾语通常是名词（a decrease / growth / changes），而不是句子。**
 
