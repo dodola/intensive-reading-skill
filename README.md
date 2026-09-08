@@ -43,10 +43,10 @@ footer: 选必二 Unit 1  ·  John Snow
 ```
 讲义.md
   │
-  ├─ print_variant.py   符号替换（emoji → CJK 几何符号）+ 生成实体目录
+  ├─ print_variant.py   符号替换（emoji → CJK 几何符号）+ 字形校验 + 生成实体目录
   ├─ make_ref.py        按 tokens.py 生成 Word 参考模板：字体 / 色板 / 页面 / 页眉页脚
   ├─ pandoc             md → docx（--reference-doc）
-  ├─ postprocess.py     逐段角色排版 + 表格列宽 + 加粗着色 + 页面设置
+  ├─ postprocess.py     逐段角色排版 + 表格列宽 + 加粗着色 + 页面设置 + 产物校验
   └─ soffice            docx → pdf
 ```
 
@@ -64,6 +64,19 @@ footer: 选必二 Unit 1  ·  John Snow
 | `--toc` 在 docx 里是需按 F9 才填充的域，导出为空白页 | 生成实体目录列表 |
 | pandoc 丢弃参考模板的 `sectPr`，页眉页脚失效 | 导出后重建 `sectPr`，从 rels 里读真实 rId |
 | pandoc 把 `---` 渲染成 VML 横线，而原件全篇无横线 | 改成规格里的竖向间隔空段 |
+| 紧跟文字行的 `- ` 列表被并进上一段，搭配家族挤成一行连字符 | 开 pandoc `lists_without_preceding_blankline` 扩展 |
+
+## 两处静默失败与对应的校验
+
+这条管线有两类失败不会自己暴露——产物照样生成、页数照样对，只有逐页看才发现：
+
+- **缺字形。** LibreOffice 对 emoji 与 `▶ ⚠ ✔` 无字形，渲染出来是**什么都没有**，
+  不是豆腐块。`print_variant.py` 替换完会逐字复查，凡落在 U+2190–U+2BFF 或
+  U+1F000 以上而不在 `SAFE_DECOR` 白名单里的字符，报出行号与码位后退出。
+- **角色认错。** `postprocess.py` 靠文本特征认封面 / 方框 / `En:` / `译:` / 词条头，
+  认不出来只是退回默认排版。所以最后核一遍「必然非零」的计数，缺了就非零退出。
+
+两处都是非零退出，`build.sh` 的 `set -e` 会把整条管线停住。
 
 ## examples/
 

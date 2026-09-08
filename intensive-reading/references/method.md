@@ -83,13 +83,18 @@
 
 ## 迁移分级
 
-体例里最有辨识度的增值点：**区分"读懂价值"和"使用价值"**，明确告诉学生哪些词只能欣赏、不能搬进作文。
+体例里最有辨识度的增值点：**区分"读懂价值"和"使用价值"**，明确告诉学生哪些词只能欣赏、不能搬进作文。四档：
 
 | 标记 | 含义 | 例 |
 |---|---|---|
-| ✓✓ | 强烈建议迁移：正式、中性、无修辞色彩 | `become widespread among…`、`the past decade has seen…` |
+| ✓✓✓ | 必须掌握：考点或黄金句型，整组背下，直接决定分数 | `There is a close link between A and B.`、`transform the way…`、单元语法项对应的句型 |
+| ✓✓ | 建议迁移：正式、中性、无修辞色彩，写作里可放心用 | `become widespread among…`、`the past decade has seen…` |
 | ✓ | 可用，但注意分寸 | `notoriously`（自带评价色彩，勿滥用）、`once and for all`（语气很重） |
 | ⚠️ | 读懂即可，不建议主动使用 | `a torrent of criticism`、`down the road`、`be stopped in its tracks` |
+
+✓✓✓ 与 ✓✓ 的分界不是「更好」，而是**是否属于必背**：✓✓✓ 要么是本单元语法项 /
+高频考点，要么是能反复套用的句型骨架；只是「地道、可以用」的一律给 ✓✓。
+写作素材库只收 ✓✓ 与 ✓✓✓。
 
 **⚠️ 类必须给替换方案，这是闭环的关键：**
 
