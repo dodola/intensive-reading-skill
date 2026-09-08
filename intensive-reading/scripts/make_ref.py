@@ -9,6 +9,7 @@
 """
 import subprocess, sys, tempfile, zipfile, re
 from pathlib import Path
+from xml.sax.saxutils import escape
 
 sys.path.insert(0, str(Path(__file__).parent))
 from tokens import *
@@ -136,8 +137,14 @@ def build_styles() -> str:
 
 
 def hdr_ftr(header_text: str, footer_prefix: str):
-    """页眉右对齐无边框，页脚居中带页码域——原件正文与页眉均无横线。"""
+    """页眉右对齐无边框，页脚居中带页码域——原件正文与页眉均无横线。
+
+    页眉页脚来自讲义 front matter，是**外部输入**，必须转义：`&` 或 `<` 直接写进
+    <w:t> 会产出格式错误的 XML，Word 与 LibreOffice 都打不开，而 soffice 加载失败
+    时退出码仍是 0（只是不产 PDF）——build.sh 靠 PDF 存在性检查兜底。
+    """
     def run(text, sz, font=UI):
+        text = escape(text)
         return (f'<w:r><w:rPr>{rfonts(LABEL, font)}<w:color w:val="{MUTED}"/>'
                 f'<w:sz w:val="{sz}"/></w:rPr>'
                 f'<w:t xml:space="preserve">{text}</w:t></w:r>')
