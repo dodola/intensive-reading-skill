@@ -85,5 +85,5 @@ footer: 选必二 Unit 1  ·  John Snow
 
 ## examples/
 
-`选必二_Unit1_John Snow_精读讲义` —— 人教版选择性必修第二册 Unit 1 课文的完整讲义（24 页 A4）。
+`选必二_Unit1_John Snow_精读讲义` —— 人教版选择性必修第二册 Unit 1 课文的完整讲义（25 页 A4）。
 课文原文版权归人民教育出版社，此处仅作体例样例，请勿分发。
