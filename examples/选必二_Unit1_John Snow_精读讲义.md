@@ -219,6 +219,75 @@ footer: 选必二 Unit 1  ·  John Snow
 >
 > **🎓 高考迁移：✓** 可以用，位置固定在句末。但不要滥用——它语气很重，只适合真正"根本性解决"的语境。
 
+### 🔍 长难句拆解｜本段第一句
+
+```
+Cholera used to be one of the most feared diseases in the world, until a British doctor, John Snow, showed how it could be overcome.
+```
+
+这句话是全文的**总起句**，难在两处：**同位语把主语部分撑长**，以及 **until 后面套了一个宾语从句**。
+
+**第一步：抽主干**
+
+主干只有五个词：`Cholera used to be one of the diseases.`（霍乱曾是那些疾病之一。）
+其余全部是挂上去的修饰与延伸。
+
+**第二步：剥修饰**
+
+- `most feared` —— 过去分词作定语，修饰 diseases（"最被人害怕的"，不是"最害怕的"）
+- `in the world` —— 介词短语作定语，继续修饰 diseases
+- `until…` —— 时间状语从句，把整句的时间轴切成两半
+- `a British doctor, John Snow` —— **同位语**：前面是身份，后面是名字，两个逗号夹住
+
+**第三步：画出嵌套**
+
+```
+Cholera used to be one of the most feared diseases in the world,
+  └ until a British doctor, John Snow, showed …     ← 时间状语从句
+              └ a British doctor / John Snow        ← 同位语（互为解释）
+              └ how it could be overcome            ← 宾语从句（作 showed 的宾语）
+                        └ could be overcome         ← 情态动词 + 被动
+```
+
+**整句直译**：霍乱曾是世界上最令人恐惧的疾病之一，直到一位英国医生、约翰·斯诺，展示了它是**怎么能够被战胜的**。
+
+⇢ **考点挂钩｜时态 + 语态** `used to be` 和 `could be overcome` 是这句的两个空位候选：
+前者考"过去习惯性状态"（暗含现在不再如此），后者考"情态动词的被动式 = 情态 + be + done"。
+同位语则是阅读细节题的常客——问 "who was John Snow"，答案就藏在两个逗号之间。
+
+👉 **英语规则：同位语用来"补身份"。** 写作里介绍人物别写两句话
+（*He was a British doctor. His name was John Snow.*），压成一个同位语更像地道英语。
+
+### 🧩 语法聚焦｜本段语法点归位
+
+本段没有出现单元语法项（表语从句到第二段才登场），但**六个句子里藏了五类语法点**，
+先按十二类归位：
+
+| 原句片段 | 语法点 | 为什么必须这么用 |
+|---|---|---|
+| used to be one of the most feared diseases | 第 1 类·时态 + 第 9 类·最高级 | `used to do` 暗含"现在不再是"，这层今昔对比就是全文的起点；换成 was 就丢了 |
+| until a British doctor … showed | 第 5 类·状语从句（时间） | until 把时间轴切成"斯诺之前 / 斯诺之后"两段，全文的叙事框架 |
+| showed **how** it could be overcome | 第 4 类·名词性从句（宾语从句） | 疑问词引导，从句用**陈述语序**（不是 how could it be） |
+| could be overcome | 第 1 类·语态（情态 + 被动） | 施动者不重要，重点是"能被战胜"这个可能性 |
+| no one knew **how to prevent or treat** cholera | 第 2 类·非谓语（疑问词 + 不定式） | `how to do` 整体作 knew 的宾语，等价于一个名词性成分 |
+| became **frustrated** because… | 第 2 类·非谓语（过去分词作表语） | frustrated 主语是人（感到受挫）；frustrating 才是"令人受挫的"，一年一考 |
+| **when** she gave birth | 第 5 类·状语从句（时间） | 与主句 attended to 同为过去，两件事同时，不需要过去完成时 |
+
+**过去分词作表语深讲｜-ed 还是 -ing，看主语是"感受者"还是"来源"**
+
+本段的 `became frustrated` 是这类词的标准用法。判据只有一条：
+
+| 主语 | 用什么 | 例 |
+|---|---|---|
+| 人（感受者） | -ed | John Snow became **frustrated**. 斯诺感到受挫。 |
+| 事物（来源） | -ing | The situation was **frustrating**. 这局面令人受挫。 |
+
+同族高频词：interested / interesting、excited / exciting、confused / confusing、
+disappointed / disappointing、amazed / amazing。
+
+⚠️ 经典陷阱：`I am boring.` ✗（我很无聊 → 我这个人让人厌烦）
+→ `I am bored.` ✓（我感到无聊）
+
 ### 🖊 续写素材｜人物出场：从"受挫"到"不甘"
 
 **心理梯度**（弱 → 强）
@@ -444,7 +513,60 @@ as a young doctor → became frustrated → rose to become a famous doctor
 >
 > **🎓 高考迁移：✓✓** 写"科学精神/人物品质"时，`determination`（决心）与 `persistence`（坚持）、`curiosity`（好奇心）是三个必备名词。
 
-### 🧩 语法聚焦｜表语从句（Predicative Clauses）第一击
+### 🔍 长难句拆解｜本段倒数第二句
+
+```
+He discovered that in two particular streets the cholera outbreak was so severe that more than 500 people died in ten days.
+```
+
+这句话难在**一句里两个 that，功能完全不同**，而且第一个 that 后面还先插了一段状语。
+
+**第一步：抽主干**
+
+`He discovered that…`（他发现……）——主句只有主谓宾，宾语是一整个从句。
+
+**第二步：剥修饰，认清两个 that**
+
+| 位置 | that | 引导什么 | 判据 |
+|---|---|---|---|
+| 第一个 | that in two particular streets… | **宾语从句** | 前面是实义动词 discovered |
+| 第二个 | that more than 500 people died | **结果状语从句** | 前面有 so + 形容词 severe |
+
+`in two particular streets` 是**插在从句连词与从句主语之间**的地点状语——这是本句最容易断错的地方：
+读到 `that in` 会以为 that 后面缺主语，其实主语是后面的 the cholera outbreak。
+
+**第三步：画出嵌套**
+
+```
+He discovered
+  └ that ── in two particular streets ── the cholera outbreak was so severe   ← 宾语从句
+                  ↑ 地点状语（插在连词与主语之间）
+            └ that more than 500 people died in ten days                      ← 结果状语从句
+```
+
+**整句直译**：他发现，在两条特定的街道上，霍乱疫情**如此**严重，**以至于**十天里有 500 多人死亡。
+
+⇢ **考点挂钩｜连词** 语法填空考到 `so … ___ …` 时，判据是"前面有没有 so/such + 修饰语"：
+有就填 that（结果），没有就要考虑别的连词。两个 that 同句出现是命题者最爱的干扰设计。
+
+👉 **英语规则：`so + 形容词/副词 + that`，`such + 名词 + that`。** 写作里想强调程度，
+这对结构比 very 有力得多：*The evidence was so clear that no one could deny it.*
+
+### 🧩 语法聚焦｜本段语法点归位 + 表语从句第一击
+
+**本段语法点归位**
+
+| 原句片段 | 语法点 | 为什么必须这么用 |
+|---|---|---|
+| two contradictory theories **to explain** how cholera spread | 第 2 类·非谓语（不定式作定语） | to explain 修饰 theories，说明这两个理论是"用来解释……的"；不能换成 explaining |
+| how cholera **spread** | 第 4 类·名词性从句（宾语从句） | 疑问词引导 + 陈述语序；spread 三态同形，这里是过去式 |
+| One theory **was that** bad air caused… | 第 4 类·名词性从句（表语从句） | 单元语法项，下面深讲 |
+| cholera **was caused by** an infection | 第 1 类·语态（被动） | 说明文里施动者不明确时用被动，主语位置留给真正要谈的对象 |
+| so severe **that** more than 500 people died | 第 5 类·状语从句（结果） | 见本块 🔍 |
+| He **was determined to** find out why | 第 1 类·语态（固化被动） | 形式被动、意义主动：这是"他下定决心"，不是"他被决定" |
+| **Consequently** / **As a result of** this evidence | 第 10 类·并列与衔接 | 因果衔接语，一个接句、一个接名词短语，见词条 4 |
+
+**表语从句（Predicative Clauses）深讲**
 
 本单元的语法项就是**表语从句**，而本段一口气给了两个最标准的例子：
 
@@ -587,38 +709,7 @@ He was determined to find out why. ← 提出问题
 >
 > **🎓 高考迁移：✓✓** 写实验、写流程、写读后续写的动作序列时，`begin by doing… , then… , finally…` 是现成的顺序框架。
 
-**▶ 2. 长难句拆解：本段第一句**
-
-> ```
-> Snow began by marking on a map the exact places where all those who died had lived.
-> ```
->
-> 这句话难在两处：**宾语后置**和**从句嵌套**。
->
-> **第一步：还原正常语序**
->
-> 正常语序应是 `marking the exact places on a map`。作者把 `on a map` 提前，是因为宾语 `the exact places where…had lived` 太长了。
->
-> 👉 **英语规则：头轻脚重（end weight）——长的成分放后面。**
->
-> **第二步：拆开嵌套的从句**
->
-> ```
-> the exact places  ← 先行词
->   └ where all those who died had lived   ← 定语从句（修饰 places）
->            └ who died                     ← 定语从句（修饰 those）
-> ```
->
-> - `where` 引导定语从句，修饰地点 `places`
-> - `all those who died` = 所有死去的人（`those who…` = "……的人们"）
-> - `had lived` 用过去完成时：**死者"生前"居住** —— 居住发生在"标地图"之前
->
-> **整句直译**：斯诺先把所有死者生前居住的确切地点标在了一张地图上。
->
-> 📌 `those who…` 是高考写作的黄金句型：
-> *Those who work hard will be rewarded.* 努力的人终有回报。
-
-**▶ 3. household** /ˈhaʊshəʊld/ n.
+**▶ 2. household** /ˈhaʊshəʊld/ n.
 
 > 中文释义：一家人；家庭；**住户**（作为一个居住/消费单位）
 >
@@ -643,7 +734,7 @@ He was determined to find out why. ← 提出问题
 >
 > **🎓 高考迁移：✓✓** `household income`（家庭收入）、`a household name`（家喻户晓）都是高频表达。
 
-**▶ 4. be to blame (for sth)**
+**▶ 3. be to blame (for sth)**
 
 > ⚠️ **本段最重要的语法点，高考高频考点。**
 >
@@ -671,7 +762,7 @@ He was determined to find out why. ← 提出问题
 >
 > **🎓 高考迁移：✓✓✓** 三个句型都必须会写，语法填空与改错的常客。
 
-**▶ 5. suspect** /səˈspekt/ v. 与 **doubt** 的辨析
+**▶ 4. suspect** /səˈspekt/ v. 与 **doubt** 的辨析
 
 > 中文释义：怀疑（**认为某件坏事是真的**）
 >
@@ -694,7 +785,65 @@ He was determined to find out why. ← 提出问题
 >
 > **🎓 高考迁移：✓✓** `suspect sb of doing` 与 `be suspected of` 都要会用。
 
-### 🧩 语法聚焦｜过去完成时：叙事中的"时间层次"
+### 🔍 长难句拆解｜本段第一句
+
+```
+Snow began by marking on a map the exact places where all those who died had lived.
+```
+
+这句话难在两处：**宾语后置**和**从句嵌套**。全文最值得拆的一句——16 个词里塞了两层定语从句、
+一个过去完成时和一次语序调整。
+
+**第一步：抽主干**
+
+`Snow began by marking the exact places.`（斯诺先标出那些确切地点。）
+
+**第二步：还原正常语序**
+
+正常语序应是 `marking the exact places on a map`。作者把 `on a map` 提前，
+是因为宾语 `the exact places where…had lived` 太长了。
+
+👉 **英语规则：头轻脚重（end weight）——长的成分放后面。**
+
+**第三步：拆开嵌套的从句**
+
+```
+the exact places  ← 先行词
+  └ where all those who died had lived   ← 定语从句（修饰 places）
+           └ who died                     ← 定语从句（修饰 those）
+```
+
+- `where` 引导定语从句，修饰地点 `places`
+- `all those who died` = 所有死去的人（`those who…` = "……的人们"）
+- `had lived` 用过去完成时：**死者"生前"居住** —— 居住发生在"标地图"之前
+
+**整句直译**：斯诺先把所有死者生前居住的确切地点标在了一张地图上。
+
+⇢ **考点挂钩｜关系词** 这里为什么是 where 而不是 which/that？两条判据同时成立：
+先行词 `places` 是地点，且从句 `all those who died had lived` 主语宾语都不缺。
+只要从句里缺了宾语（如 `the places which he marked`），就必须换回关系代词——
+"看见地点就填 where"是最常见的错解。
+
+📌 `those who…` 是高考写作的黄金句型：
+*Those who work hard will be rewarded.* 努力的人终有回报。
+
+### 🧩 语法聚焦｜本段语法点归位 + 过去完成时
+
+**本段语法点归位**
+
+| 原句片段 | 语法点 | 为什么必须这么用 |
+|---|---|---|
+| Snow began **by marking** on a map… | 第 2 类·非谓语（介词 + 动名词） | 介词 by 后面只能接动名词；`begin by doing` 是流程叙述的现成框架 |
+| on a map **the exact places** where… | 第 10 类·语序（宾语后置） | 长宾语后移，见本块 🔍 |
+| places **where** all those who died had lived | 第 3 类·定语从句（关系副词） | 先行词是地点 + 从句不缺主宾 → where |
+| all **those who** died | 第 12 类·代词（those who） | those who = "……的人们"，避免重复 people |
+| **There were** multiple deaths near the water pump | 第 11 类·主谓一致（there be） | be 的数跟着后面的真正主语 deaths 走，所以是 were |
+| some households **had had** no deaths | 第 1 类·时态（过去完成） | 单元之外但本段最密集的语法点，下面深讲 |
+| They **had been given** free beer | 第 1 类·时态语态（过去完成被动） | 给啤酒早于调查，且施动者不重要 |
+| (such as 20 and 21 Broad Street…) | 第 10 类·插入语 | 括号插入语，删掉句子仍完整——阅读时可以先跳过 |
+| Snow suspected **that** the water pump was to blame | 第 4 类·名词性从句（宾语从句） | suspect 是实义动词，所以是宾语从句，不是表语从句 |
+
+**过去完成时深讲｜叙事中的"时间层次"**
 
 本段密集出现过去完成时，**这不是炫技，而是叙事逻辑的必需品**：
 
@@ -935,6 +1084,79 @@ Snow suspected that the water pump was to blame.
 > - **effectively prevent …** 有效阻止……
 > - **curb the spread of …** 遏制……的传播
 
+### 🔍 长难句拆解｜本段第二句
+
+```
+It seemed that the woman liked the water from the pump so much that she had it delivered to her house every day.
+```
+
+这句话难在**三层套一起**：it 形式主语、so…that 结果状语从句、have sth done 使役结构。
+21 个词，却是全文考点最密的一句。
+
+**第一步：抽主干**
+
+`It seemed that…`（看来……）—— it 不指任何东西，它只是**占着主语的位置**，
+真正的主语是后面整个 that 从句。
+
+**第二步：一层层剥开**
+
+- `that the woman liked the water…` —— **主语从句**（it 是形式主语，这才是真主语）
+- `so much that she had it delivered` —— **结果状语从句**，嵌在主语从句内部
+- `had it delivered` —— **have sth done**：it（水）与 delivered 是被动关系，
+  "让水被送到家"，送水的人不是她自己
+
+**第三步：画出嵌套**
+
+```
+It seemed                                      ← it 形式主语
+  └ that the woman liked the water … so much   ← 主语从句（真主语）
+        └ that she had it delivered to her house   ← 结果状语从句
+              └ had it delivered                   ← have sth done（使役被动）
+```
+
+**整句直译**：看起来这位女士**如此**喜欢这口泵里的水，**以至于**她让人每天把水送到她家里。
+
+⇢ **考点挂钩｜代词 + 非谓语** 两个空位候选：`It seemed that…` 考 it 作形式主语（无提示词，
+只能填 it，不能填 That）；`had it ___ (deliver)` 考 have sth done 的过去分词形式。
+后者是本单元的高频结构——本段两次出现（另一处见词条 2），命题者最爱在这里设空。
+
+👉 **英语规则：`so…that` 是结果，`so that` 是目的。** 本段正好两种都有，见下面的深讲。
+
+### 🧩 语法聚焦｜本段语法点归位 + so…that vs so that
+
+**本段语法点归位**
+
+| 原句片段 | 语法点 | 为什么必须这么用 |
+|---|---|---|
+| **What is more**, in another part of London… | 第 10 类·并列与衔接 | 递进衔接语，独立于句子结构之外；写作里比 and 有层次 |
+| had died of cholera **after moving away** | 第 1 类·时态 + 第 2 类·非谓语 | 过去完成表"早于本段叙述的时点"；after + doing 因主语与主句一致才能省 |
+| **It seemed that** the woman liked… | 第 12 类·代词（it 形式主语） | 真主语太长，先用 it 占位，见本块 🔍 |
+| liked the water **so much that** she had it delivered | 第 5 类·状语从句（结果） | so + much/adj. + that，程度与结果绑在一起 |
+| **had it delivered** / **had the handle removed** | 第 2 类·非谓语（have sth done） | 宾语与过去分词是被动关系；下面深讲的另一半 |
+| was **able to** announce | 第 7 类·情态动词 | was able to 表"经过努力做到了"，这里不能换成 could |
+| **so that** it could not be used | 第 5 类·状语从句（目的） | so that + 情态动词 = 目的，与上面的 so…that 形成对照 |
+| the disease **was stopped** in its tracks | 第 1 类·语态（被动） | 主语是疾病，动作的发出者是人为干预，用被动才顺 |
+
+**so…that vs so that 深讲｜本段两种都出现，正好对照**
+
+本段没有单元语法项（表语从句），但给了一组**极容易错**的对照——同一个 so，
+中间隔不隔词，意思完全不同：
+
+| 结构 | 意思 | 从句里的标志 | 本段原句 |
+|---|---|---|---|
+| so + adj./adv. + **that** | **结果**：如此……以至于 | 从句是**已经发生的事实** | liked the water so much **that** she had it delivered |
+| **so that** + 从句 | **目的**：为了……；以便 | 从句里通常有 can/could/may/might | he had the handle removed **so that** it could not be used |
+
+**判断口诀：中间夹了形容词或副词 → 结果；so that 直接连在一起 → 目的。**
+
+⚠️ 经典陷阱：`He got up early so that he caught the first bus.` ✗
+（so that 引导目的，从句要用情态动词）
+→ `He got up early so that he could catch the first bus.` ✓
+→ 或改成结果：`He got up so early that he caught the first bus.` ✓
+
+**🎓 高考迁移：✓✓✓** 这两个结构都是应用文与议论文的骨架句型，必须能主动写对：
+*The school planted more trees so that students could study in a greener environment.*
+
 ### 🖊 续写素材｜高潮与收束：从怀疑到行动
 
 **动作链**（全文的动作高潮）
@@ -1140,7 +1362,62 @@ suspected the pump was to blame → found the woman who had moved away
 > *Students who read regularly are **far more likely to** perform well in exams **than** those who rarely read.*
 > 经常阅读的学生比很少阅读的学生更有可能考出好成绩。
 
-### 🧩 语法聚焦｜表语从句第二击 + 被动语态的叙事功能
+### 🔍 长难句拆解｜本段最后一句
+
+```
+The people who drank this water were much more likely to get cholera than those who drank pure or boiled water.
+```
+
+这句话不长（20 词），却是全文**考点密度最高**的一句：两个定语从句 + 一个比较结构 +
+一个过去分词作定语，全部是高考年年考的东西。
+
+**第一步：抽主干**
+
+`The people were much more likely to get cholera than those.`
+（这些人比那些人更可能得霍乱。）—— 去掉两个从句，句子骨架一眼看清。
+
+**第二步：剥修饰**
+
+- `who drank this water` —— 定语从句，修饰主语 The people
+- `than those who drank pure or boiled water` —— 比较状语，那半边也挂了一个定语从句
+- `those` —— 代替 the people，避免重复
+- `boiled` —— 过去分词作定语，"被煮过的"水
+- `much` —— 修饰比较级 more likely，不能用 very
+
+**第三步：画出嵌套（两边对称）**
+
+```
+The people                      ←→        those
+  └ who drank this water                    └ who drank pure or boiled water
+        ↓                                          ↓
+   were much more likely to get cholera  ——than——
+```
+
+**整句直译**：喝这种水的人，比喝纯净水或煮沸过的水的人，得霍乱的可能性要大得多。
+
+⇢ **考点挂钩｜比较结构 + 关系词** 三个空位候选：`much/far/a lot` 修饰比较级（very ✗）、
+`than` 后面用 those 而不是 that 或 them、以及两个 who（先行词都是人且从句缺主语）。
+这类"对称比较句"在数据类阅读和语法填空里反复出现。
+
+👉 **英语规则：比较的两边成分要对等。** 左边是"人 + 定语从句"，右边也必须是
+"人 + 定语从句"，不能写成 `than pure water`——那是拿人跟水比。
+
+### 🧩 语法聚焦｜本段语法点归位 + 表语从句第二击
+
+**本段语法点归位**
+
+| 原句片段 | 语法点 | 为什么必须这么用 |
+|---|---|---|
+| The truth **was that** the water … had been infected | 第 4 类·名词性从句（表语从句） | 单元语法项，下面深讲 |
+| had **been infected** by waste | 第 1 类·时态语态（过去完成被动） | 污染早于"真相被查明"，且施动者是污物 |
+| Snow was later **able to** show a link | 第 7 类·情态动词 | 强调"后来做到了"，是结果不是能力 |
+| sold water from the River Thames **that was polluted** | 第 3 类·定语从句 | that 的先行词是 water 不是 Thames——按语义判断，不能按就近原则 |
+| The people **who** drank this water | 第 3 类·定语从句 | 先行词是人且从句缺主语 → who |
+| **much more likely to** … **than** those | 第 9 类·比较结构 | much 修饰比较级；见本块 🔍 |
+| pure or **boiled** water | 第 2 类·非谓语（过去分词作定语） | boiled = 已被煮过的，被动 + 完成 |
+| **Moreover** / **Some companies** | 第 10 类·并列与衔接 | 递进衔接，把"个案证明"推到"群体验证" |
+
+**表语从句（第二击）与被动语态深讲**
 
 **① 表语从句**
 
@@ -1468,7 +1745,62 @@ was later able to show a link → water companies began to sell clean water
 >
 > **🎓 高考迁移：⚠️ 只读不写**（专业术语，认识即可）。但 `epidemic` 与 `pandemic` 是疫情类阅读的高频词，必须掌握。
 
-### 🧩 语法聚焦｜the way + 从句
+### 🔍 长难句拆解｜本段第一句
+
+```
+Through Snow's tireless efforts, water companies began to sell clean water, and the threat of cholera around the world saw a substantial decrease.
+```
+
+这句话难在**主语被撑得很长**，以及 **saw 的熟词生义**——两个坑都不在从句上。
+
+**第一步：抽主干（并列句，两套主谓）**
+
+```
+water companies began to sell clean water        ← 前半句
+the threat … saw a substantial decrease          ← 后半句
+```
+中间的 `and` 把两件事连成因果并列：先有干净水，才有威胁下降。
+
+**第二步：剥修饰**
+
+- `Through Snow's tireless efforts` —— 介词短语作方式状语，整句提前
+- `the threat of cholera around the world` —— **完整主语**：中心词是 threat，
+  后面挂了两层介词短语（of cholera / around the world）
+- `saw` —— **不是"看见"**：以事物/时间/地点作主语时表"经历、出现"（见词条 2）
+
+**第三步：还原成学生熟悉的说法**
+
+```
+the threat … saw a substantial decrease
+        ≈ the threat … decreased substantially
+        ≈ there was a substantial decrease in the threat …
+```
+
+**整句直译**：通过斯诺不懈的努力，自来水公司开始出售干净的水，全世界霍乱的威胁**出现了**大幅下降。
+
+⇢ **考点挂钩｜词义猜测 + 主谓一致** saw 在这里是熟词生义（阅读词义猜测题只考这个），
+上下文线索是"主语是抽象事物 + 宾语是变化类名词"。另外主语中心词是 threat（单数），
+两层介词短语不影响谓语的数——语法填空第 5 类的经典设计。
+
+👉 **英语规则：`名词 + see + 变化`是英语写"数据变化"的高级说法。**
+*The past decade has seen a sharp rise in online learning.* 过去十年在线学习急剧增加。
+
+### 🧩 语法聚焦｜本段语法点归位 + the way + 从句
+
+**本段语法点归位**
+
+| 原句片段 | 语法点 | 为什么必须这么用 |
+|---|---|---|
+| **Through** Snow's tireless efforts | 第 12 类·介词 | through 表"通过（手段、过程）"；by 只强调方式，through 还含"贯穿始终"的意味 |
+| water companies **began to sell** clean water | 第 2 类·非谓语（不定式作宾语） | begin to do 与 begin doing 此处均可，to do 更突出"开始转变"这个节点 |
+| the threat of cholera around the world **saw** … | 第 1 类·时态 + 熟词生义 | 抽象事物作主语的 see = 经历、出现，见词条 2 与本块 🔍 |
+| cholera **is** still a problem / many **die** from it | 第 1 类·时态（一般现在） | 从叙事的过去时切回一般现在：这是当下的现状，不是历史 |
+| **thanks to** the work of John Snow | 第 12 类·介词短语 | 只用于**积极**结果；消极结果要用 because of / owing to |
+| **in** his use of maps and statistics | 第 12 类·介词 | in + n. 表"在……方面"，等价于 by using，但更书面 |
+| the way scientists **study** diseases | 第 3 类·定语从句（the way + 省略） | 下面深讲 |
+| Snow **is considered** the father of modern epidemiology | 第 1 类·语态（被动 + 复合宾语） | be considered (to be) + n.，to be 通常省略；作者用被动避免说"谁认为" |
+
+**the way + 从句深讲**
 
 ```
 Snow transformed the way (that / in which) scientists study diseases.
@@ -1732,10 +2064,14 @@ Snow transformed the way scientists study diseases.
 3. **Activity 6 追问**：斯诺**没有**使用显微镜——为什么他仍然能得出正确结论？这说明科学研究中"工具"和"方法"哪个更根本？
 4. **词汇自查**：不看注释，说出下列词在**本文中**的意思——`attend to` / `subscribe to` / `handle` / `raw` / `waste` / `see` / `statistics`。
 5. **语法自查**：找出课文中全部 **3 处表语从句**、**2 处 have sth done**、**5 处以上过去完成时**。
-6. **写作产出（议论文）**：用素材库 **一~五** 里的至少 **6 个表达**，写一段 100 词左右的短文回答——*What makes a great scientist?*
-7. **读后续写微练习**：用素材库 **六~八** 里的 **动作链 4 步 + 心理梯度 2 级 + 环境细节 2 处**，写 80 词——
+6. **长难句自查**：不看讲义，把下面两句各自的**主干**用一行写出来，再说清每层修饰挂在谁身上——
+   ① *Snow began by marking on a map the exact places where all those who died had lived.*
+   ② *The people who drank this water were much more likely to get cholera than those who drank pure or boiled water.*
+   （对照各块 🔍 模块的第一步与嵌套图核答案）
+7. **写作产出（议论文）**：用素材库 **一~五** 里的至少 **6 个表达**，写一段 100 词左右的短文回答——*What makes a great scientist?*
+8. **读后续写微练习**：用素材库 **六~八** 里的 **动作链 4 步 + 心理梯度 2 级 + 环境细节 2 处**，写 80 词——
    *斯诺拔掉把手的那个下午*。不许出现 `He was very happy` 这类概括性情绪句。
-8. **语法填空自查**（对接考点扫描表）：不看注释，在课文里各找出——
+9. **语法填空自查**（对接考点扫描表）：不看注释，在课文里各找出——
    **3 处过去完成时**、**2 处 have sth done**、**5 个固定介词搭配**、
    **1 处 the way + 从句**、**1 处 those who 替代**。
    十类考点里哪一类你在课文里找不到例证？（答案见扫描表）
