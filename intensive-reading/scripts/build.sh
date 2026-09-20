@@ -8,8 +8,9 @@
 # 页眉/页脚取自讲义 YAML front matter 的 header / footer 字段；
 # 缺省时按文件名 <册>_<Unit>_<课文名>_精读讲义.md 推导。
 #
-# 每一步都会在失败时非零退出：print_variant 校验字形，postprocess 校验角色识别。
-# 缺字形和角色认错都是静默失败——产物照样生成、页数照样对，所以只能靠脚本拦。
+# 每一步都会在失败时非零退出：print_variant 校验字形，postprocess 校验角色识别，
+# 成品 PDF 再查一遍反引号内嵌套加粗留下的字面星号。这三类都是静默失败——产物照样
+# 生成、页数照样对，所以只能靠脚本拦。全部通过后才把产物移进源文件目录。
 set -euo pipefail
 
 HERE="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
@@ -18,7 +19,7 @@ SRC="${1:?用法: build.sh <讲义.md>}"
 DIR="$(cd "$(dirname "$SRC")" && pwd)"
 BASE="$(basename "$SRC" .md)"
 
-for dep in pandoc soffice python3; do
+for dep in pandoc soffice python3 pdftotext pdfinfo; do
   command -v "$dep" >/dev/null || { echo "缺少依赖: $dep" >&2; exit 1; }
 done
 
@@ -51,12 +52,25 @@ trap 'rm -rf "$WORK"' EXIT
 python3 "$HERE/make_ref.py"       "$WORK/ref.docx" "$HEADER" "$FOOTER"
 python3 "$HERE/print_variant.py"  "$SRC" "$WORK/print.md"
 pandoc  "$WORK/print.md" -f markdown+lists_without_preceding_blankline \
-        --reference-doc="$WORK/ref.docx" -o "$DIR/$BASE.docx"
-python3 "$HERE/postprocess.py"    "$DIR/$BASE.docx"
+        --reference-doc="$WORK/ref.docx" -o "$WORK/$BASE.docx"
+python3 "$HERE/postprocess.py"    "$WORK/$BASE.docx"
 # 独立 LibreOffice 用户配置：多个 build.sh 并发跑时，共享配置会抢锁互相失败
 soffice --headless "-env:UserInstallation=file://$WORK/loprofile" \
-        --convert-to pdf --outdir "$DIR" "$DIR/$BASE.docx" >/dev/null 2>&1
-[ -f "$DIR/$BASE.pdf" ] || { echo "soffice 没产出 PDF" >&2; exit 1; }
+        --convert-to pdf --outdir "$WORK" "$WORK/$BASE.docx" >/dev/null 2>&1
+[ -f "$WORK/$BASE.pdf" ] || { echo "soffice 没产出 PDF" >&2; exit 1; }
+
+# 反引号内嵌套加粗：pandoc 不解析 code span 内部的 **，成品留下字面星号。
+# 不报错、产物照样生成，所以只能对成品 PDF 查（源码级 grep 反引号会误判）。
+STARS="$(pdftotext "$WORK/$BASE.pdf" - | grep -oP '.{0,36}\*\*[^ ].{0,36}' || true)"
+if [ -n "$STARS" ]; then
+  echo "字面星号残留：反引号内嵌套了 **加粗**，pandoc 不解析 code span 内部。" >&2
+  echo "$STARS" | head -20 >&2
+  echo "改写成 *外层斜体 **内层加粗** *，或把加粗移出反引号；见 template.md 第六条约束。" >&2
+  exit 1
+fi
+
+# 全部检查通过才落盘：失败时不留下与 PDF 不同步的半成品 docx
+mv "$WORK/$BASE.docx" "$WORK/$BASE.pdf" "$DIR/"
 
 echo "✓ $BASE.docx"
 echo "✓ $BASE.pdf   ($(pdfinfo "$DIR/$BASE.pdf" | awk '/^Pages/{print $2}') 页, A4)"

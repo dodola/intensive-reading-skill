@@ -4,14 +4,18 @@
 原件零命名样式、全靠直接格式化，命名样式表达不了这种粒度，所以分工是：
 make_ref.py 定基线（字体 / 字号 / 色板 / 页面），这里定逐段的间距、缩进、底色、竖条。
 
-四项修正：
-1) 段落角色 —— 两类方框（导读 TINT_A / 精读 TINT_B）、En: 行、译: 行、▶ 词条头。
+五项修正：
+1) 段落角色 —— 两类方框（导读 TINT_A / 精读 TINT_B，结语正文单走 epilogue 一档）、
+   En: 行、译: 行、▶ 词条头、完结线。
 2) 加粗着色 —— pandoc 用内联 <w:b/>，样式表管不到；补加粗色并切中文粗体字族。
 3) 表格列宽 —— pandoc 对管道表格输出空 <w:tblGrid/> 且 tblW=0，
    LibreOffice 会把整行宽度分给第一列。按内容宽度重新分配。
 4) 页面设置 —— pandoc 丢弃参考模板的 sectPr，在此补回并接上页眉页脚。
 5) 产物校验 —— 角色认不出来是静默的（退回默认排版，产物照样生成），
    所以最后把「必然非零」的计数核一遍，缺了就非零退出。
+
+用法: postprocess.py <docx>
+「必然非零」的角色清单见 REQUIRED。
 """
 import shutil, sys, re, zipfile
 from pathlib import Path
@@ -23,9 +27,11 @@ from tokens import *
 W = "http://schemas.openxmlformats.org/wordprocessingml/2006/main"
 R = "http://schemas.openxmlformats.org/officeDocument/2006/relationships"
 ET.register_namespace("w", W)
+ET.register_namespace("r", R)
 def q(t): return f"{{{W}}}{t}"
 
 MIN_SHARE, MAX_SHARE = 0.10, 0.55
+DASHES = "—–-"        # em dash / en dash / 连字符：完结线的两端
 HEADINGS = {f"Heading{n}" for n in range(1, 10)}
 
 
@@ -96,13 +102,14 @@ def is_rule(p):
 
 
 def to_spacer(p):
-    """横线改成原件的竖向间隔空段：去掉 pict，只留间距。"""
+    """横线改成原件的竖向间隔空段：去掉 pict，只留间距（取值走 SP["spacer"]）。"""
     for r in list(p.findall(q("r"))):
         p.remove(r)
     el = ppr(p)
     drop(el, "spacing", "ind", "shd", "pBdr", "keepNext", "pStyle")
-    ET.SubElement(el, q("spacing"), {q("before"): "20", q("after"): "20",
-                                     q("line"): "40", q("lineRule"): "exact"})
+    before, after, line = SP["spacer"]
+    ET.SubElement(el, q("spacing"), {q("before"): str(before), q("after"): str(after),
+                                     q("line"): str(line), q("lineRule"): "exact"})
 
 
 def is_bold_para(p):
@@ -163,8 +170,12 @@ def fix_list_indent(body):
 
 
 # ── 1. 段落角色 ──────────────────────────────────────────────
-def callout(block, kind):
-    """kind='a' 导读/写在最后（TINT_A，标题深蓝）；'b' 精读（TINT_B，标题暗红）。"""
+def callout(block, kind, *, body_key=None, body_color=None):
+    """kind='a' 导读/写在最后（TINT_A，标题深蓝）；'b' 精读（TINT_B，标题暗红）。
+
+    body_key / body_color 覆盖正文那一档——style-spec 里三类方框正文并不同规格：
+    导读正文 24/36/283 · BOLD，结语正文 30/40/288 · BODY，精读正文 24/36/283 · BODY。
+    """
     tint = TINT_A if kind == "a" else TINT_B
     geometry(block[0], f"box_title_{kind}", ind_left=IND_BOX, ind_right=IND_BOX,
              tint=tint, bar=True, keep=True)
@@ -173,14 +184,16 @@ def callout(block, kind):
         if para.tag != q("p"):
             continue          # 表格保留 Table 样式的描边与表头底色，不套方框几何
         # 全部齐方框内缩：竖条画在段落缩进处，缩进不一致会把左竖条推出台阶
-        geometry(para, f"box_body_{kind}", ind_left=IND_BOX,
+        geometry(para, body_key or f"box_body_{kind}", ind_left=IND_BOX,
                  ind_right=IND_BOX, tint=tint, bar=True)
+        if body_color:
+            recolor(para, body_color)
 
 
 def apply_roles(body):
     kids = list(body)
     stats = {"cover": 0, "callout_a": 0, "callout_b": 0,
-             "en": 0, "zh": 0, "entry": 0, "rule": 0}
+             "en": 0, "zh": 0, "entry": 0, "rule": 0, "finis": 0}
 
     # 封面 = Heading1 之后到第一条横线 / 二级标题之前
     if kids and para_style(kids[0]) == "Heading1":
@@ -214,7 +227,12 @@ def apply_roles(body):
                     break
                 j += 1
             if j > i + 1:
-                callout(kids[i:j], kind)
+                # 【写在最后】与【导读】共用 TINT_A，但正文一个是 epilogue 一档、
+                # 一个是 BOLD 色，style-spec 段落几何表里分两行列
+                epilogue = "写在最后" in txt
+                callout(kids[i:j], kind,
+                        body_key="epilogue" if epilogue else None,
+                        body_color=None if epilogue or kind == "b" else BOLD)
                 stats[f"callout_{kind}"] += 1
                 i = j; continue
 
@@ -229,6 +247,14 @@ def apply_roles(body):
             geometry(p, "entry", keep=True)
             recolor(p, NOTE, bold=True)
             stats["entry"] += 1
+        # 完结线 `*--- 全文精读完结 ---*`：真横线已被 is_rule 接走，这里只剩带字的那行。
+        # pandoc 的 smart 扩展把 --- 换成 em dash，所以按破折号族认，不能认连字符
+        elif style != "SourceCode" and style not in HEADINGS \
+                and len(txt) > 6 and txt[0] in DASHES and txt[-1] in DASHES:
+            geometry(p, "finis")
+            ET.SubElement(ppr(p), q("jc"), {q("val"): "center"})
+            recolor(p, MUTED)
+            stats["finis"] += 1
         i += 1
     return stats
 
@@ -337,35 +363,39 @@ def main(path):
     tables = sum(fix_table(t) for t in root.iter(q("tbl")))
     hf = ensure_sectpr(items, body)
 
+    print(f"  角色排版：封面 {roles['cover']} / 导读方框 {roles['callout_a']} / "
+          f"精读方框 {roles['callout_b']} / En 行 {roles['en']} / 译文 {roles['zh']} / "
+          f"词条头 {roles['entry']} / 完结线 {roles['finis']}")
+    print(f"  基础修正：{bolds} 处加粗 / {tables} 个表格列宽 / {roles['rule']} 条横线改间隔 / "
+          f"{lists} 处列表缩进 / 页眉页脚 {hf}/2", flush=True)
+    verify(roles, hf)      # 先校验再落盘，不留下已知有问题的产物
+
     items["word/document.xml"] = ET.tostring(root, encoding="utf-8", xml_declaration=True)
     tmp = path.with_suffix(".tmp.docx")
     with zipfile.ZipFile(tmp, "w", zipfile.ZIP_DEFLATED) as z:
         for n, d in items.items():
             z.writestr(n, d)
     shutil.move(tmp, path)
-    print(f"  角色排版：封面 {roles['cover']} / 导读方框 {roles['callout_a']} / "
-          f"精读方框 {roles['callout_b']} / En 行 {roles['en']} / 译文 {roles['zh']} / "
-          f"词条头 {roles['entry']}")
-    print(f"  基础修正：{bolds} 处加粗 / {tables} 个表格列宽 / {roles['rule']} 条横线改间隔 / "
-          f"{lists} 处列表缩进 / 页眉页脚 {hf}/2", flush=True)
-    verify(roles, hf)
 
 
 # ── 5. 产物校验 ──────────────────────────────────────────────
 # 角色识别全靠文本特征，认不出来时不会报错，只是那一块退回默认排版——产物照样
 # 生成、页数照样对，光看输出发现不了。所以这里把「必然非零」的计数硬性核一遍。
-REQUIRED = [
-    ("cover",     "封面区（首行须是 `# ` 一级标题）"),
-    ("callout_a", "【导读】方框（三级标题须含「【」，且其后紧跟正文段）"),
-    ("callout_b", "📖 精读 方框"),
-    ("en",        "En: 英文原句行"),
-    ("zh",        "译: 中文翻译行（须写在引用块 `> ` 里）"),
-    ("entry",     "▶ 词条头"),
-]
+WHY = {
+    "cover":     "封面区（首行须是 `# ` 一级标题）",
+    "callout_a": "【导读】方框（三级标题须含「【」，且其后紧跟正文段）",
+    "callout_b": "📖 精读 方框",
+    "en":        "En: 英文原句行",
+    "zh":        "译: 中文翻译行（须写在引用块 `> ` 里）",
+    "entry":     "▶ 词条头",
+}
+
+# 六个角色每份讲义都必然有，缺任何一个都是结构写错了（对照 template.md 的硬性约束）。
+REQUIRED = ["cover", "callout_a", "callout_b", "en", "zh", "entry"]
 
 
 def verify(roles, hf):
-    missing = [(k, why) for k, why in REQUIRED if not roles[k]]
+    missing = [(k, WHY[k]) for k in REQUIRED if not roles[k]]
     if hf != 2:
         missing.append(("header/footer", f"页眉页脚只接上 {hf}/2，sectPr 的 rId 没找到"))
     if not missing:
